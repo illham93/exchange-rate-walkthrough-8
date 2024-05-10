@@ -29,6 +29,7 @@ const RAW_RUNTIME_STATE =
           ["@testing-library/jest-dom", "npm:5.17.0"],\
           ["@testing-library/react", "virtual:ef531876c3ffa158a2e02b0e02aafbf8053f22829e38fd560b27a90026de103880b6fe099aaf79f927eea335e213df1d5e2a4ad172da9a7752597083261a188f#npm:13.4.0"],\
           ["@testing-library/user-event", "virtual:ef531876c3ffa158a2e02b0e02aafbf8053f22829e38fd560b27a90026de103880b6fe099aaf79f927eea335e213df1d5e2a4ad172da9a7752597083261a188f#npm:13.5.0"],\
+          ["bootstrap", "virtual:ef531876c3ffa158a2e02b0e02aafbf8053f22829e38fd560b27a90026de103880b6fe099aaf79f927eea335e213df1d5e2a4ad172da9a7752597083261a188f#npm:5.3.3"],\
           ["gh-pages", "npm:6.1.1"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:ef531876c3ffa158a2e02b0e02aafbf8053f22829e38fd560b27a90026de103880b6fe099aaf79f927eea335e213df1d5e2a4ad172da9a7752597083261a188f#npm:18.3.1"],\
@@ -6526,6 +6527,28 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["bootstrap", [\
+      ["npm:5.3.3", {\
+        "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/bootstrap-npm-5.3.3-da08e2f0fe-10c0.zip/node_modules/bootstrap/",\
+        "packageDependencies": [\
+          ["bootstrap", "npm:5.3.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:ef531876c3ffa158a2e02b0e02aafbf8053f22829e38fd560b27a90026de103880b6fe099aaf79f927eea335e213df1d5e2a4ad172da9a7752597083261a188f#npm:5.3.3", {\
+        "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-44792534ad/6/AppData/Local/Yarn/Berry/cache/bootstrap-npm-5.3.3-da08e2f0fe-10c0.zip/node_modules/bootstrap/",\
+        "packageDependencies": [\
+          ["bootstrap", "virtual:ef531876c3ffa158a2e02b0e02aafbf8053f22829e38fd560b27a90026de103880b6fe099aaf79f927eea335e213df1d5e2a4ad172da9a7752597083261a188f#npm:5.3.3"],\
+          ["@popperjs/core", null],\
+          ["@types/popperjs__core", null]\
+        ],\
+        "packagePeers": [\
+          "@popperjs/core",\
+          "@types/popperjs__core"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["brace-expansion", [\
       ["npm:1.1.11", {\
         "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/brace-expansion-npm-1.1.11-fb95eb05ad-10c0.zip/node_modules/brace-expansion/",\
@@ -9079,6 +9102,7 @@ const RAW_RUNTIME_STATE =
           ["@testing-library/jest-dom", "npm:5.17.0"],\
           ["@testing-library/react", "virtual:ef531876c3ffa158a2e02b0e02aafbf8053f22829e38fd560b27a90026de103880b6fe099aaf79f927eea335e213df1d5e2a4ad172da9a7752597083261a188f#npm:13.4.0"],\
           ["@testing-library/user-event", "virtual:ef531876c3ffa158a2e02b0e02aafbf8053f22829e38fd560b27a90026de103880b6fe099aaf79f927eea335e213df1d5e2a4ad172da9a7752597083261a188f#npm:13.5.0"],\
+          ["bootstrap", "virtual:ef531876c3ffa158a2e02b0e02aafbf8053f22829e38fd560b27a90026de103880b6fe099aaf79f927eea335e213df1d5e2a4ad172da9a7752597083261a188f#npm:5.3.3"],\
           ["gh-pages", "npm:6.1.1"],\
           ["react", "npm:18.3.1"],\
           ["react-dom", "virtual:ef531876c3ffa158a2e02b0e02aafbf8053f22829e38fd560b27a90026de103880b6fe099aaf79f927eea335e213df1d5e2a4ad172da9a7752597083261a188f#npm:18.3.1"],\
