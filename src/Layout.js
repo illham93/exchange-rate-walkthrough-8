@@ -1,9 +1,15 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+
 const Layout = (props) => {
   return (
     <React.Fragment>
       <nav className="navbar navbar-light bg-light">
-        <span className="navbar-brand mb-0 h1">Currency Exchange Rates</span>
+          <ul className='h3 mt-2'>
+            <li><Link to="/">Currency Exchange Rates</Link></li>
+            <span> | </span>
+            <li><Link to="/currencyconverter">Currency Converter</Link></li>
+          </ul>
       </nav>
       <div className="container py-3">
         {props.children}

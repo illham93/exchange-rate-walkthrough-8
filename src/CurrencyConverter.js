@@ -5,12 +5,16 @@ import { checkStatus, json } from "./utils/fetchUtils";
 class CurrencyConverter extends React.Component {
     constructor(props) {
         super(props);
+
+        const params = new URLSearchParams(props.location.search);
+        console.log(params.get('base'), params.get('quote'));
+
         this.state = {
-            rate: 109.55,
-            baseAcronym: 'USD',
-            baseValue: 1,
-            quoteAcronym: 'JPY',
-            quoteValue: 1 * 109.55,
+            rate: 0,
+            baseAcronym: params.get('base') || 'USD',
+            baseValue: 0,
+            quoteAcronym: params.get('quote') || 'JPY',
+            quoteValue: 0,
             loading: false,
         };
     }
